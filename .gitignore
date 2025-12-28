@@ -1,0 +1,39 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+
+
+# Jupyter / notebooks
+
+.ipynb_checkpoints/
+
+
+# OS / Editor noise
+
+.DS_Store
+Thumbs.db
+.vscode/
+
+
+# Streamlit cache
+
+.streamlit/
+
+
+# Large / generated assets
+
+posters_raw/
+posters_temp/
+*.zip
+
+
+# Logs
+
+*.log
