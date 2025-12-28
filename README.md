@@ -24,6 +24,3 @@ This app mimics Netflix-style discovery:
 2. Cosine similarity measures closeness between movies
 3. User interactions dynamically trigger recommendations
 
----
-
-## 📂 Project Structure
