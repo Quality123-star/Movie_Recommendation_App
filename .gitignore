@@ -38,5 +38,4 @@ posters_temp/
 
 *.log
 
-# .gitignore
 Data/similarity.npy
