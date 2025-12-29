@@ -27,7 +27,7 @@ st.caption("Discover movies by similarity, cast, and genre")
 # Load Data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/movies_with_cached_posters.csv")
+    df = pd.read_csv("Data/movies_with_cached_posters.csv")
     for col in ["cast", "genres", "director", "keywords", "title"]:
         df[col] = df[col].fillna("").str.lower().str.strip()
     return df
